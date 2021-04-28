@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DotNetWebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("/[controller]")]
     [ApiController]
     public class TestController : ControllerBase
     {
