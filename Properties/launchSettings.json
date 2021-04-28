@@ -22,7 +22,7 @@
       "dotnetRunMessages": "true",
       "console": "internalConsole",
       "launchBrowser": true,
-      "launchUrl": "test",
+      "launchUrl": "api/Inventory",
       "applicationUrl": "https://localhost:5001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

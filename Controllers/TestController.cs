@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DotNetWebAPI.Models;
 
 namespace DotNetWebAPI.Controllers
 {
@@ -12,9 +13,9 @@ namespace DotNetWebAPI.Controllers
     public class TestController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<List<int>> Get()
+        public ActionResult<InventoryItem> Get()
         {
-            return new List<int> { 1, 2, 3, 4 };
+            return new InventoryItem("INV6", "Helmet", 12, true);
         }
     }
 }
